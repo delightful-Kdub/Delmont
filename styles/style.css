@@ -1,0 +1,266 @@
+/*global stuff*/
+
+.border{
+    background-color: #DFDDD1;
+    padding: 5px;
+    border-radius: 3px;
+
+}
+.container{
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+}
+
+
+
+h1{
+  text-align: center;
+  color: #DFDDD1;
+}
+
+
+h3{
+  color: #715345;
+}
+
+
+html{
+  position: relative;
+
+}
+
+
+body{
+  margin: 0;
+    background: #43646B;
+    color: #412216;
+}
+
+
+
+header{
+  position: sticky;
+  margin-bottom: 30px;
+}
+.logo img{
+  width: 100%;
+  height: auto;
+
+}
+.nav{
+
+  justify-content: center;
+  margin-top: -50px;
+  font-size: 14pt;
+  margin-bottom: 20px;
+}
+
+.nav a{
+  text-decoration: none;
+  color: #DFDDD1;
+  padding: 10px;
+  font-weight: 600;
+
+}
+
+.nav a:hover{
+  color: #43646B;
+
+}
+
+.leftnav{
+  margin-right: 15%;
+}
+
+.rightnav{
+  margin-left: 15%;
+}
+
+.flex{
+  display: flex;
+
+}
+
+#book{
+  font-size: 18pt;
+  background: #412216;
+  color: #DFDDD1;
+  border-color: #412216;
+  border-style: groove;
+  border-radius: 3px;
+  padding: 2px;
+
+}
+
+#book:hover{
+  background: #DFDDD1;
+  color: #412216;
+  border-color: #DFDDD1;
+  border-style: groove;
+  border-radius: 3px;
+  padding: 2px;
+
+}
+
+
+footer{
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  margin-bottom: -35px;
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+}
+
+footer img{
+  margin-top: 10px;
+}
+
+footer a{
+  text-decoration: none;
+
+
+}
+
+.footer a:hover{
+  color: #416D78;
+}
+
+#social{
+  text-align: center;
+  margin-top: -90px;
+  margin-bottom: 10px;
+
+
+}
+
+#social a{
+  margin: 20px;
+
+}
+
+#social a:hover{
+  opacity: .7;
+}
+
+#byline{
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  color: black;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 700;
+
+
+}
+
+#byline p{
+
+  text-align: left;
+}
+
+#byline p p{
+
+  text-align: right;
+
+}
+
+.breakup{
+  width: 100%;
+  height: 30px;
+}
+/*end global*/
+
+/*index*/
+iframe{
+
+}
+
+/*end index*/
+
+
+/*news*/
+.twitter-timeline{
+  float: right;
+}
+
+/*end news*/
+
+/*SHOWS page*/
+
+table{
+  text-align: center;
+
+}
+
+
+
+#shows .eventrow{
+  margin-bottom: 30px;
+  border-bottom: 1px black;
+
+}
+
+
+
+
+/*End shows*/
+
+
+
+/*Images*/
+
+#images{
+  text-align: center;
+  margin-bottom: -45px;
+}
+
+#images img{
+  margin: 3px;
+}
+
+/*end images*/
+
+
+/*About*/
+
+.aboutleft{
+  float: left;
+  margin-right: 10px;
+}
+/*end About*/
+
+
+/*VIDEOS*/
+#videos{
+  width: 100%;
+  text-align: center;
+}
+
+.section video{
+  margin: 2px;
+}
+/*end Video*/
+
+/*Book*/
+#contact{
+  text-align: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+#contact .contactinfo{
+  width: 50%;
+  margin-top: 50px;
+
+}
+
+#contact .contactvideo{
+  width: 50%;
+  margin-top: 5px;
+}
+/*end Book*/
