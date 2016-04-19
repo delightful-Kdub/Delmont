@@ -240,10 +240,16 @@ table{
 .aboutleft{
   float: left;
   margin-right: 10px;
+  width: 80%;
 }
 
 .about{
   margin-bottom: 150px;
+}
+
+.about p{
+  padding-left: 40px;
+  padding-right: 40px;
 }
 /*end About*/
 
