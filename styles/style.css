@@ -36,6 +36,7 @@ body{
   margin: 0;
     background: #43646B;
     color: #412216;
+    height: 100%;
 }
 
 
@@ -44,6 +45,7 @@ header{
   position: sticky;
   margin-bottom: 30px;
 }
+
 .logo img{
   width: 100%;
   height: auto;
@@ -53,7 +55,7 @@ header{
 
   justify-content: center;
   margin-top: -50px;
-  font-size: 14pt;
+  font-size: 16pt;
   margin-bottom: 20px;
 }
 
@@ -69,6 +71,7 @@ header{
   color: #43646B;
 
 }
+
 
 .leftnav{
   margin-right: 15%;
@@ -106,10 +109,10 @@ header{
 
 
 footer{
-  position: sticky;
+  position: relative;
   left: 0;
   bottom: 0;
-  margin-bottom: -35px;
+  margin-bottom: 0;
   width: 100%;
   margin-top: 100px;
   text-align: center;
@@ -166,6 +169,12 @@ footer a{
 #byline p p{
 
   text-align: right;
+
+}
+
+#byline a{
+  text-decoration: none;
+  color: black;
 
 }
 
