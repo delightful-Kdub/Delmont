@@ -109,7 +109,7 @@ header{
 
 
 footer{
-  position: relative;
+  position: sticky;
   left: 0;
   bottom: 0;
   margin-bottom: 0;
@@ -240,6 +240,10 @@ table{
 .aboutleft{
   float: left;
   margin-right: 10px;
+}
+
+.about{
+  margin-bottom: 150px;
 }
 /*end About*/
 
